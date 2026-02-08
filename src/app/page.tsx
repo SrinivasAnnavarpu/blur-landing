@@ -2,7 +2,10 @@ export default function Home() {
   return (
     <main className="container">
       <div className="nav">
-        <div className="brand">Blur</div>
+        <div className="brand" style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <img src="/blur.svg" alt="Blur" width={26} height={26} style={{ display: "block" }} />
+          <span>Blur</span>
+        </div>
         <div className="navlinks">
           <a href="#privacy">Privacy</a>
           <a href="#faq">FAQ</a>
