@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description:
     "Blur sensitive information from screenshots and photos — no uploads. Fast, private, and local-only.",
   applicationName: "Blur Your Pics",
+  icons: {
+    icon: [{ url: "/blur.svg", type: "image/svg+xml" }],
+    shortcut: [{ url: "/blur.svg", type: "image/svg+xml" }],
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
